@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178D95711E2CE8D200A2FF0C /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D95701E2CE8D200A2FF0C /* LineChart.swift */; };
+		178D95731E2CE8DA00A2FF0C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D95721E2CE8DA00A2FF0C /* MainViewController.swift */; };
+		178D95751E2CF3B400A2FF0C /* BMIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D95741E2CF3B400A2FF0C /* BMIViewController.swift */; };
+		178D95771E2CF3E000A2FF0C /* BMICalcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178D95761E2CF3E000A2FF0C /* BMICalcViewController.swift */; };
+		178DC2591E1AB3D30095433E /* CategoryyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DC2581E1AB3D30095433E /* CategoryyViewController.swift */; };
+		178DC25D1E1AB7950095433E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 178DC25C1E1AB7950095433E /* MyCollectionViewCell.swift */; };
+		17A7009C1E1E383500B0D1B0 /* ChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7009B1E1E383500B0D1B0 /* ChartViewController.swift */; };
+		17A700A21E1E48D000B0D1B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17A700A11E1E48D000B0D1B0 /* CoreGraphics.framework */; };
+		17E8AD371E17A35A0096FC95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8AD361E17A35A0096FC95 /* AppDelegate.swift */; };
+		17E8AD391E17A35A0096FC95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8AD381E17A35A0096FC95 /* ViewController.swift */; };
+		17E8AD3E1E17A35A0096FC95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E8AD3D1E17A35A0096FC95 /* Assets.xcassets */; };
+		17E8AD411E17A35A0096FC95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E8AD3F1E17A35A0096FC95 /* LaunchScreen.storyboard */; };
+		17E8AD4C1E17A35B0096FC95 /* shikarStepCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8AD4B1E17A35B0096FC95 /* shikarStepCounterTests.swift */; };
+		17E8AD571E17A35B0096FC95 /* shikarStepCounterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8AD561E17A35B0096FC95 /* shikarStepCounterUITests.swift */; };
+		17E8AD681E17C2070096FC95 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E8AD671E17C2070096FC95 /* ViewController2.swift */; };
+		713AE1EF1E2FD1B500B572A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713AE1ED1E2FD1B500B572A4 /* Main.storyboard */; };
+		713E10771E1BB01E0030810C /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E10761E1BB01E0030810C /* ProductViewController.swift */; };
+		713E10791E1BECBE0030810C /* MyCustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713E10781E1BECBE0030810C /* MyCustomClass.swift */; };
+		714BD6291E1E54A900FBEB86 /* DailyProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714BD6281E1E54A900FBEB86 /* DailyProductsCell.swift */; };
+		714BD62B1E1E572100FBEB86 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714BD62A1E1E572100FBEB86 /* DailyViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17E8AD481E17A35B0096FC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E8AD2B1E17A35A0096FC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E8AD321E17A35A0096FC95;
+			remoteInfo = shikarStepCounter;
+		};
+		17E8AD531E17A35B0096FC95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17E8AD2B1E17A35A0096FC95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17E8AD321E17A35A0096FC95;
+			remoteInfo = shikarStepCounter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		178D95701E2CE8D200A2FF0C /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineChart.swift; path = "../../swift-linechart-master/linechart/LineChart.swift"; sourceTree = "<group>"; };
+		178D95721E2CE8DA00A2FF0C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = "../../swift-linechart-master/linechart/MainViewController.swift"; sourceTree = "<group>"; };
+		178D95741E2CF3B400A2FF0C /* BMIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMIViewController.swift; sourceTree = "<group>"; };
+		178D95761E2CF3E000A2FF0C /* BMICalcViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BMICalcViewController.swift; sourceTree = "<group>"; };
+		178DC2581E1AB3D30095433E /* CategoryyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryyViewController.swift; sourceTree = "<group>"; };
+		178DC25C1E1AB7950095433E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		17A7009B1E1E383500B0D1B0 /* ChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartViewController.swift; sourceTree = "<group>"; };
+		17A700A11E1E48D000B0D1B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17E8AD331E17A35A0096FC95 /* CalorieTrackingSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalorieTrackingSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E8AD361E17A35A0096FC95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		17E8AD381E17A35A0096FC95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		17E8AD3D1E17A35A0096FC95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		17E8AD401E17A35A0096FC95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		17E8AD421E17A35A0096FC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E8AD471E17A35B0096FC95 /* CalorieTrackingSystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorieTrackingSystemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E8AD4B1E17A35B0096FC95 /* shikarStepCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shikarStepCounterTests.swift; sourceTree = "<group>"; };
+		17E8AD4D1E17A35B0096FC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E8AD521E17A35B0096FC95 /* CalorieTrackingSystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalorieTrackingSystemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17E8AD561E17A35B0096FC95 /* shikarStepCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shikarStepCounterUITests.swift; sourceTree = "<group>"; };
+		17E8AD581E17A35B0096FC95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E8AD671E17C2070096FC95 /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		713AE1EE1E2FD1B500B572A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		713E10761E1BB01E0030810C /* ProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		713E10781E1BECBE0030810C /* MyCustomClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomClass.swift; sourceTree = "<group>"; };
+		714BD6281E1E54A900FBEB86 /* DailyProductsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyProductsCell.swift; sourceTree = "<group>"; };
+		714BD62A1E1E572100FBEB86 /* DailyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17E8AD301E17A35A0096FC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17A700A21E1E48D000B0D1B0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD441E17A35B0096FC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD4F1E17A35B0096FC95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17A700A01E1E48D000B0D1B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17A700A11E1E48D000B0D1B0 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17E8AD2A1E17A35A0096FC95 = {
+			isa = PBXGroup;
+			children = (
+				17E8AD351E17A35A0096FC95 /* CalorieTrackingSystem */,
+				17E8AD4A1E17A35B0096FC95 /* CalorieTrackingSystemTests */,
+				17E8AD551E17A35B0096FC95 /* CalorieTrackingSystemUITests */,
+				17E8AD341E17A35A0096FC95 /* Products */,
+				17A700A01E1E48D000B0D1B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		17E8AD341E17A35A0096FC95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17E8AD331E17A35A0096FC95 /* CalorieTrackingSystem.app */,
+				17E8AD471E17A35B0096FC95 /* CalorieTrackingSystemTests.xctest */,
+				17E8AD521E17A35B0096FC95 /* CalorieTrackingSystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		17E8AD351E17A35A0096FC95 /* CalorieTrackingSystem */ = {
+			isa = PBXGroup;
+			children = (
+				17E8AD361E17A35A0096FC95 /* AppDelegate.swift */,
+				17E8AD671E17C2070096FC95 /* ViewController2.swift */,
+				17E8AD381E17A35A0096FC95 /* ViewController.swift */,
+				178D95721E2CE8DA00A2FF0C /* MainViewController.swift */,
+				178DC25C1E1AB7950095433E /* MyCollectionViewCell.swift */,
+				713AE1ED1E2FD1B500B572A4 /* Main.storyboard */,
+				178D95701E2CE8D200A2FF0C /* LineChart.swift */,
+				178DC2581E1AB3D30095433E /* CategoryyViewController.swift */,
+				17E8AD3D1E17A35A0096FC95 /* Assets.xcassets */,
+				17E8AD3F1E17A35A0096FC95 /* LaunchScreen.storyboard */,
+				17E8AD421E17A35A0096FC95 /* Info.plist */,
+				713E10761E1BB01E0030810C /* ProductViewController.swift */,
+				713E10781E1BECBE0030810C /* MyCustomClass.swift */,
+				17A7009B1E1E383500B0D1B0 /* ChartViewController.swift */,
+				714BD6281E1E54A900FBEB86 /* DailyProductsCell.swift */,
+				714BD62A1E1E572100FBEB86 /* DailyViewController.swift */,
+				178D95741E2CF3B400A2FF0C /* BMIViewController.swift */,
+				178D95761E2CF3E000A2FF0C /* BMICalcViewController.swift */,
+			);
+			path = CalorieTrackingSystem;
+			sourceTree = "<group>";
+		};
+		17E8AD4A1E17A35B0096FC95 /* CalorieTrackingSystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				17E8AD4B1E17A35B0096FC95 /* shikarStepCounterTests.swift */,
+				17E8AD4D1E17A35B0096FC95 /* Info.plist */,
+			);
+			path = CalorieTrackingSystemTests;
+			sourceTree = "<group>";
+		};
+		17E8AD551E17A35B0096FC95 /* CalorieTrackingSystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				17E8AD561E17A35B0096FC95 /* shikarStepCounterUITests.swift */,
+				17E8AD581E17A35B0096FC95 /* Info.plist */,
+			);
+			path = CalorieTrackingSystemUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17E8AD321E17A35A0096FC95 /* CalorieTrackingSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E8AD5B1E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystem" */;
+			buildPhases = (
+				17E8AD2F1E17A35A0096FC95 /* Sources */,
+				17E8AD301E17A35A0096FC95 /* Frameworks */,
+				17E8AD311E17A35A0096FC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalorieTrackingSystem;
+			productName = shikarStepCounter;
+			productReference = 17E8AD331E17A35A0096FC95 /* CalorieTrackingSystem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17E8AD461E17A35B0096FC95 /* CalorieTrackingSystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E8AD5E1E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystemTests" */;
+			buildPhases = (
+				17E8AD431E17A35B0096FC95 /* Sources */,
+				17E8AD441E17A35B0096FC95 /* Frameworks */,
+				17E8AD451E17A35B0096FC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E8AD491E17A35B0096FC95 /* PBXTargetDependency */,
+			);
+			name = CalorieTrackingSystemTests;
+			productName = shikarStepCounterTests;
+			productReference = 17E8AD471E17A35B0096FC95 /* CalorieTrackingSystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		17E8AD511E17A35B0096FC95 /* CalorieTrackingSystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E8AD611E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystemUITests" */;
+			buildPhases = (
+				17E8AD4E1E17A35B0096FC95 /* Sources */,
+				17E8AD4F1E17A35B0096FC95 /* Frameworks */,
+				17E8AD501E17A35B0096FC95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17E8AD541E17A35B0096FC95 /* PBXTargetDependency */,
+			);
+			name = CalorieTrackingSystemUITests;
+			productName = shikarStepCounterUITests;
+			productReference = 17E8AD521E17A35B0096FC95 /* CalorieTrackingSystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17E8AD2B1E17A35A0096FC95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "SERHAT YILDIRIM";
+				TargetAttributes = {
+					17E8AD321E17A35A0096FC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R6PM73A63J;
+						ProvisioningStyle = Automatic;
+					};
+					17E8AD461E17A35B0096FC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E8AD321E17A35A0096FC95;
+					};
+					17E8AD511E17A35B0096FC95 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 17E8AD321E17A35A0096FC95;
+					};
+				};
+			};
+			buildConfigurationList = 17E8AD2E1E17A35A0096FC95 /* Build configuration list for PBXProject "CalorieTrackingSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 17E8AD2A1E17A35A0096FC95;
+			productRefGroup = 17E8AD341E17A35A0096FC95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17E8AD321E17A35A0096FC95 /* CalorieTrackingSystem */,
+				17E8AD461E17A35B0096FC95 /* CalorieTrackingSystemTests */,
+				17E8AD511E17A35B0096FC95 /* CalorieTrackingSystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17E8AD311E17A35A0096FC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713AE1EF1E2FD1B500B572A4 /* Main.storyboard in Resources */,
+				17E8AD411E17A35A0096FC95 /* LaunchScreen.storyboard in Resources */,
+				17E8AD3E1E17A35A0096FC95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD451E17A35B0096FC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD501E17A35B0096FC95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17E8AD2F1E17A35A0096FC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				713E10771E1BB01E0030810C /* ProductViewController.swift in Sources */,
+				713E10791E1BECBE0030810C /* MyCustomClass.swift in Sources */,
+				17E8AD391E17A35A0096FC95 /* ViewController.swift in Sources */,
+				178D95731E2CE8DA00A2FF0C /* MainViewController.swift in Sources */,
+				178DC25D1E1AB7950095433E /* MyCollectionViewCell.swift in Sources */,
+				178D95711E2CE8D200A2FF0C /* LineChart.swift in Sources */,
+				714BD62B1E1E572100FBEB86 /* DailyViewController.swift in Sources */,
+				17E8AD371E17A35A0096FC95 /* AppDelegate.swift in Sources */,
+				17A7009C1E1E383500B0D1B0 /* ChartViewController.swift in Sources */,
+				714BD6291E1E54A900FBEB86 /* DailyProductsCell.swift in Sources */,
+				178DC2591E1AB3D30095433E /* CategoryyViewController.swift in Sources */,
+				17E8AD681E17C2070096FC95 /* ViewController2.swift in Sources */,
+				178D95771E2CF3E000A2FF0C /* BMICalcViewController.swift in Sources */,
+				178D95751E2CF3B400A2FF0C /* BMIViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD431E17A35B0096FC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E8AD4C1E17A35B0096FC95 /* shikarStepCounterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17E8AD4E1E17A35B0096FC95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17E8AD571E17A35B0096FC95 /* shikarStepCounterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17E8AD491E17A35B0096FC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E8AD321E17A35A0096FC95 /* CalorieTrackingSystem */;
+			targetProxy = 17E8AD481E17A35B0096FC95 /* PBXContainerItemProxy */;
+		};
+		17E8AD541E17A35B0096FC95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17E8AD321E17A35A0096FC95 /* CalorieTrackingSystem */;
+			targetProxy = 17E8AD531E17A35B0096FC95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17E8AD3F1E17A35A0096FC95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17E8AD401E17A35A0096FC95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		713AE1ED1E2FD1B500B572A4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				713AE1EE1E2FD1B500B572A4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17E8AD591E17A35B0096FC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		17E8AD5A1E17A35B0096FC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17E8AD5C1E17A35B0096FC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R6PM73A63J;
+				INFOPLIST_FILE = shikarStepCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.CalorieTrackingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		17E8AD5D1E17A35B0096FC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R6PM73A63J;
+				INFOPLIST_FILE = shikarStepCounter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.CalorieTrackingSystem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		17E8AD5F1E17A35B0096FC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shikarStepCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.shikarStepCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieTrackingSystem.app/CalorieTrackingSystem";
+			};
+			name = Debug;
+		};
+		17E8AD601E17A35B0096FC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = shikarStepCounterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.shikarStepCounterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CalorieTrackingSystem.app/CalorieTrackingSystem";
+			};
+			name = Release;
+		};
+		17E8AD621E17A35B0096FC95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = shikarStepCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.shikarStepCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shikarStepCounter;
+			};
+			name = Debug;
+		};
+		17E8AD631E17A35B0096FC95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = shikarStepCounterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pedo.shikarStepCounterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = shikarStepCounter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E8AD2E1E17A35A0096FC95 /* Build configuration list for PBXProject "CalorieTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E8AD591E17A35B0096FC95 /* Debug */,
+				17E8AD5A1E17A35B0096FC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E8AD5B1E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E8AD5C1E17A35B0096FC95 /* Debug */,
+				17E8AD5D1E17A35B0096FC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E8AD5E1E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E8AD5F1E17A35B0096FC95 /* Debug */,
+				17E8AD601E17A35B0096FC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17E8AD611E17A35B0096FC95 /* Build configuration list for PBXNativeTarget "CalorieTrackingSystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17E8AD621E17A35B0096FC95 /* Debug */,
+				17E8AD631E17A35B0096FC95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17E8AD2B1E17A35A0096FC95 /* Project object */;
+}
